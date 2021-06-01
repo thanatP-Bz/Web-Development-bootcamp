@@ -2,11 +2,3 @@
   color: blue;
   font-size: 40px;
 }
-
-.slider {
-  position: absolute;
-  left: -500px;
-  top: 50%;
-  transition: 2s;
-  display: none;
-}
