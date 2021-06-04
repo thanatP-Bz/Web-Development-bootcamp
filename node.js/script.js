@@ -1,13 +1,8 @@
-/* const Person = require("./person");
+/* const getUserInfo = require("./app.js");
 
-const person1 = new Person("john", 34);
+/* console.log(getUserInfo); */
+/* getUserInfo.sayAdress();
+getUserInfo.sayhi();
 
-person1.greeting(); */
-const { report } = require("process");
-const Code = require("./person");
-
-const code1 = new Code("Jame", "23576");
-console.log(code1);
-
-code1.report();
-code1.code();
+console.log(__filename);
+  */
