@@ -1,8 +1,8 @@
-/* const path = require("path");
+const path = require("path");
 
 const fileLocation = path.join(__dirname, "app.js");
 
-console.log(fileLocation); */
+console.log(fileLocation);
 
 const url = require("url");
 

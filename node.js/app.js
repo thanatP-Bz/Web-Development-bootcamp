@@ -1,4 +1,4 @@
-/* const sayhi = () => {
+const sayhi = () => {
   console.log("say hi to me");
 };
 
@@ -7,4 +7,4 @@ const sayAdress = () => {
 };
 
 module.exports.sayhi = sayhi;
-module.exports.sayAdress = sayAdress; */
+module.exports.sayAdress = sayAdress;

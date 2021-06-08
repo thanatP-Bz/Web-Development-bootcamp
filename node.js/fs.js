@@ -2,13 +2,13 @@
 const fs = require("fs");
 
 ///how to create file
-/* fs.writeFile("message.txt", "hello there node", (err) => {
+fs.writeFile("message.txt", "hello there node", (err) => {
   if (err) throw err;
 
   console.log("file has been written");
 });
 
-console.log("hello"); */
+console.log("hello");
 
 //how to read file
 fs.readFile("./message.txt", "utf8", (err, data) => {
