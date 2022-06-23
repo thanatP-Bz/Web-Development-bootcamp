@@ -16,7 +16,7 @@ console.log(fruits.hasOwnProperty(4)); // true ('Orange')
  */
 
 // Setup
-const recordCollection = {
+/* const recordCollection = {
   2548: {
     albumTitle: "Slippery When Wet",
     artist: "Bon Jovi",
@@ -67,3 +67,15 @@ const checkProp = (records, name, prop, value) => {
 
 checkProp(records, "mike", "food", "rice");
 console.log(records);
+
+
+ */
+const myArray = [];
+
+let i = 5;
+
+while (i >= 0) {
+  myArray.push(i);
+  i--;
+}
+console.log(myArray);
