@@ -148,10 +148,16 @@ const contacts = [
 function lookUpProfile(name, prop) {
   // Only change code below this line
   for (let i = 0; i < contacts.length; i++) {
-    if (name === contacts[i].firstName) {
-      return console.log(contacts[i][prop]);
+    if (contacts[i].firstName === name) {
+      if (contacts[i].hasOwnProperty(prop)) {
+        return contacts[i][prop];
+      } else {
+        return "No such property";
+      }
     }
   }
+  return "No such contact";
   // Only change code above this line
 }
-lookUpProfile("Harry", "likes");
+const data = lookUpProfile("Harry", "likes");
+console.log(data);
