@@ -161,3 +161,9 @@ function lookUpProfile(name, prop) {
 }
 const data = lookUpProfile("Harry", "likes");
 console.log(data);
+
+const randomRage = (min, max) => {
+  return Math.floor(Math.random() * (max - min + 1)) + min;
+};
+
+console.log(randomRage(5, 10));
